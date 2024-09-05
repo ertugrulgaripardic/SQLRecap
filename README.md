@@ -1,4 +1,4 @@
--- 1. En yüksek maaş alan çalışanın bilgilerini getirin.
+1. En yüksek maaş alan çalışanın bilgilerini getirin.
 SELECT * FROM Employees
 ORDER BY Salary DESC
 LIMIT 1;
