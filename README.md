@@ -31,7 +31,7 @@ WHERE Salary IN (
     HAVING COUNT(*) > 1
 );
 
--- 6. Her departmanda maaşı departman ortalamasının üzerinde olan çalışanları listeleyin.
+6. Her departmanda maaşı departman ortalamasının üzerinde olan çalışanları listeleyin.
 SELECT FirstName, LastName, Department, Salary 
 FROM Employees e1
 WHERE Salary > (
