@@ -3,7 +3,7 @@ SELECT * FROM Employees
 ORDER BY Salary DESC
 LIMIT 1;
 
--- 2. Departman bazında en düşük maaşı alan çalışanları getirin.
+2. Departman bazında en düşük maaşı alan çalışanları getirin.
 SELECT * FROM Employees e
 WHERE Salary = (
     SELECT MIN(Salary) 
