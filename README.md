@@ -10,7 +10,7 @@ WHERE Salary = (
     WHERE Department = e.Department
 );
 
--- 3. 2020 yılı ve sonrasında işe başlayan çalışanların isimlerini ve pozisyonlarını listeleyin.
+3. 2020 yılı ve sonrasında işe başlayan çalışanların isimlerini ve pozisyonlarını listeleyin.
 SELECT FirstName, LastName, Position 
 FROM Employees 
 WHERE StartDate >= '2020-01-01';
