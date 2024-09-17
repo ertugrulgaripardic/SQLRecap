@@ -15,7 +15,7 @@ SELECT FirstName, LastName, Position
 FROM Employees 
 WHERE StartDate >= '2020-01-01';
 
--- 4. Her bir departmandaki toplam çalışan sayısını ve ortalama maaşı hesaplayın.
+4. Her bir departmandaki toplam çalışan sayısını ve ortalama maaşı hesaplayın.
 SELECT Department, COUNT(*) AS EmployeeCount, AVG(Salary) AS AverageSalary
 FROM Employees
 GROUP BY Department;
