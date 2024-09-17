@@ -20,7 +20,7 @@ SELECT Department, COUNT(*) AS EmployeeCount, AVG(Salary) AS AverageSalary
 FROM Employees
 GROUP BY Department;
 
--- 5. Aynı pozisyonda çalışan ve aynı maaşı alan çalışanları getirin.
+5. Aynı pozisyonda çalışan ve aynı maaşı alan çalışanları getirin.
 SELECT FirstName, LastName, Position, Salary 
 FROM Employees
 WHERE Salary IN (
